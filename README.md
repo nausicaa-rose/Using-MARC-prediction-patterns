@@ -4,25 +4,6 @@ MARC provides a powerful, but almost indecipherable language for documenting
 the publication schedule of serial publications. These patterns can be used
 to great effect in ILS/LMSs to generate records for expected serial issues.
 
-## About this document
-
-I wrote most of the current patterns over the summer of 2016 for use in 
-[Alma](http://www.exlibrisgroup.com/products/alma-library-services-platform/). 
-Some of the patterns may be less than ideal because they were created while 
-I was learning how prediction patterns worked or because they were written 
-around bugs in Alma that may have been fixed since that summer or are not present
-in other systems that support prediction patterns. All the examples
-below were functional, despite any flaws, and used at the
-[Wartburg College library](http://www.wartburg.edu/library).
-
-The initial draft of this document was written as a cheat sheet and reference for 
-myself. Since then, I've shared it on the Alma mailing list and it has been incorporated
-in official Alma [documentation materials](https://knowledge.exlibrisgroup.com/Alma/Training/Extended_Training/Presentations_and_Documents_-_Serials).
-Because librarians using other library software may be able to make use of the
-prediction patterns or may be willing to contribute to this document by adding
-their own examples or correcting errors, I've made the current version available
-on [GitHub](https://github.com/wtee/Using-MARC-prediction-patterns).
-
 ## Introduction to MARC prediction patterns
 
 Prediction patterns are used in mark fields 853-855.
@@ -125,3 +106,35 @@ documentation.
   * `$$b no. $$u 52 $$v r $$i (year) $$j (month) $$k (day) $$w w $$x 01 $$8 1`
 * Weekly, 52 issues per volume, new volume in January
   * `$$a v. $$b no. $$u 52 $$v r $$i (year) $$j (month) $$k (day) $$w w $$8 1 $$x 01`
+
+## About this document
+
+I wrote most of the current patterns over the summer of 2016 for use in 
+[Alma](http://www.exlibrisgroup.com/products/alma-library-services-platform/). 
+Some of the patterns may be less than ideal because they were created while 
+I was learning how prediction patterns worked or because they were written 
+around bugs in Alma that may have been fixed since that summer or are not present
+in other systems that support prediction patterns. All the examples
+below were functional, despite any flaws, and used at the
+[Wartburg College library](http://www.wartburg.edu/library).
+
+The initial draft of this document was written as a cheat sheet and reference for 
+myself. Since then, I've shared it on the Alma mailing list and it has been incorporated
+in official Alma [documentation materials](https://knowledge.exlibrisgroup.com/Alma/Training/Extended_Training/Presentations_and_Documents_-_Serials).
+Because librarians using other library software may be able to make use of the
+prediction patterns or may be willing to contribute to this document by adding
+their own examples or correcting errors, I've made the current version available
+on [GitHub](https://github.com/wtee/Using-MARC-prediction-patterns).
+
+As with anything, use at your own discretion. The prediction patterns are
+provided "as is" without warranty of any kind, express or implied. In no event
+shall the author be liable for any claim, damages or other liability arising from, 
+out of or in connection with the prediction patterns.
+
+### License
+
+#### [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, Wesley Teal has waived all copyright and 
+related or neighboring rights to Using MARC prediction patterns. 
+This work is published from: United States. 
